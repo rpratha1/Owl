@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticwebproject.org/group2/ontologies/crimes#"
+     xml:base="http://www.semanticwebproject.org/group2/ontologies/crimes"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticwebproject.org/group2/ontologies/crimes#"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticwebproject.org/group2/ontologies/crimes#BlockAddress -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticwebproject.org/group2/ontologies/crimes#BlockAddress">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticwebproject.org/group2/ontologies/crimes#INCNumber -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticwebproject.org/group2/ontologies/crimes#INCNumber">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticwebproject.org/group2/ontologies/crimes#OccurredOn -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticwebproject.org/group2/ontologies/crimes#OccurredOn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticwebproject.org/group2/ontologies/crimes#OccurredTo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticwebproject.org/group2/ontologies/crimes#OccurredTo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticwebproject.org/group2/ontologies/crimes#PremiseType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticwebproject.org/group2/ontologies/crimes#PremiseType">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticwebproject.org/group2/ontologies/crimes#Zip -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticwebproject.org/group2/ontologies/crimes#Zip">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticwebproject.org/group2/ontologies/crimes#Aggravated_Assault -->
+
+    <owl:Class rdf:about="http://www.semanticwebproject.org/group2/ontologies/crimes#Aggravated_Assault"/>
+    
+
+
+    <!-- http://www.semanticwebproject.org/group2/ontologies/crimes#Arson -->
+
+    <owl:Class rdf:about="http://www.semanticwebproject.org/group2/ontologies/crimes#Arson"/>
+    
+
+
+    <!-- http://www.semanticwebproject.org/group2/ontologies/crimes#Burglary -->
+
+    <owl:Class rdf:about="http://www.semanticwebproject.org/group2/ontologies/crimes#Burglary">
+        <rdfs:subClassOf rdf:resource="http://www.semanticwebproject.org/group2/ontologies/crimes#Theft"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticwebproject.org/group2/ontologies/crimes#Drug_Offense -->
+
+    <owl:Class rdf:about="http://www.semanticwebproject.org/group2/ontologies/crimes#Drug_Offense"/>
+    
+
+
+    <!-- http://www.semanticwebproject.org/group2/ontologies/crimes#Larceny -->
+
+    <owl:Class rdf:about="http://www.semanticwebproject.org/group2/ontologies/crimes#Larceny">
+        <rdfs:subClassOf rdf:resource="http://www.semanticwebproject.org/group2/ontologies/crimes#Theft"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticwebproject.org/group2/ontologies/crimes#Motor_Vehicle -->
+
+    <owl:Class rdf:about="http://www.semanticwebproject.org/group2/ontologies/crimes#Motor_Vehicle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticwebproject.org/group2/ontologies/crimes#Theft"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticwebproject.org/group2/ontologies/crimes#Murder -->
+
+    <owl:Class rdf:about="http://www.semanticwebproject.org/group2/ontologies/crimes#Murder"/>
+    
+
+
+    <!-- http://www.semanticwebproject.org/group2/ontologies/crimes#Rape -->
+
+    <owl:Class rdf:about="http://www.semanticwebproject.org/group2/ontologies/crimes#Rape"/>
+    
+
+
+    <!-- http://www.semanticwebproject.org/group2/ontologies/crimes#Robbery -->
+
+    <owl:Class rdf:about="http://www.semanticwebproject.org/group2/ontologies/crimes#Robbery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticwebproject.org/group2/ontologies/crimes#Theft"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticwebproject.org/group2/ontologies/crimes#Theft -->
+
+    <owl:Class rdf:about="http://www.semanticwebproject.org/group2/ontologies/crimes#Theft"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticwebproject.org/group2/ontologies/crimes#Arson"/>
+            <rdf:Description rdf:about="http://www.semanticwebproject.org/group2/ontologies/crimes#Drug_Offense"/>
+            <rdf:Description rdf:about="http://www.semanticwebproject.org/group2/ontologies/crimes#Murder"/>
+            <rdf:Description rdf:about="http://www.semanticwebproject.org/group2/ontologies/crimes#Rape"/>
+            <rdf:Description rdf:about="http://www.semanticwebproject.org/group2/ontologies/crimes#Theft"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticwebproject.org/group2/ontologies/crimes#Burglary"/>
+            <rdf:Description rdf:about="http://www.semanticwebproject.org/group2/ontologies/crimes#Larceny"/>
+            <rdf:Description rdf:about="http://www.semanticwebproject.org/group2/ontologies/crimes#Motor_Vehicle"/>
+            <rdf:Description rdf:about="http://www.semanticwebproject.org/group2/ontologies/crimes#Robbery"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
